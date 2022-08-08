@@ -110,22 +110,6 @@ ALTER TABLE ONLY public.users ALTER COLUMN id SET DEFAULT nextval('public.users_
 
 
 --
--- Data for Name: url; Type: TABLE DATA; Schema: public; Owner: postgres
---
-
-COPY public.url (id, "userId", "shortUrl", "fullUrl", "visitCount", "createdAt") FROM stdin;
-\.
-
-
---
--- Data for Name: users; Type: TABLE DATA; Schema: public; Owner: postgres
---
-
-COPY public.users (id, name, email, password, "createdAt") FROM stdin;
-\.
-
-
---
 -- Name: url_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
