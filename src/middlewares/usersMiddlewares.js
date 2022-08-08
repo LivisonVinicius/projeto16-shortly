@@ -1,4 +1,4 @@
-import { validateToken } from "../token.js";
+import { validateToken } from "../jwtToken.js";
 import connection from "../db/database.js";
 import jwt from "jsonwebtoken";
 import dotenv from "dotenv";
